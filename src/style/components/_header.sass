@@ -1,0 +1,32 @@
+@use "../base/typography"
+
+.header
+  font-family: 'Open Sans', sans-serif
+
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  padding: 30px
+
+  position: sticky
+  top: 0
+  left: 0
+  right: 0
+
+  color: white
+
+  &__left
+    &-menu
+      cursor: pointer
+
+  &__right
+    display: flex
+    column-gap: 11px
+
+    &-button
+      padding: 6px 19px
+      border-radius: 50px
+      border: 1px solid #FFF
+
+      cursor: pointer
