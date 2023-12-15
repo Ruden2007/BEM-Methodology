@@ -4,7 +4,7 @@
 @use "components/footer"
 
 body
-  background: linear-gradient(180deg, #FFB736 0%, rgba(255, 255, 255, 0.00) 100%), url("https://s3-alpha-sig.figma.com/img/53d5/dedc/a19f074a2cfaad69d3e8ba73f1e1d2d7?Expires=1703462400&Signature=OOezMCV-TDDTG6lt92iqXU-nzvKnRUFcYSQp1ufnHxgGO4sH3YoIf1u2GgJ3qpgLAQuChBaRr8gHJqcVmARJBX7a0Wos2CDroiewugrh~og2McasuxQkBeqiQ0IErHSCvmhU5tjGDluufyOWDm3rk4yujdfX3fQppvVvjFiWejrQrlR1oxBoVIgNCG6rBy1kaQ00dS-OZUAUTfdy7URpocIrBvuewm0mZFXr-gNoHXPLHhyjekZlO9n5BTHyedHCqd7YgPGGhVT-8u1GQ940TDAcdHACYX748kFFv~H1AR3QLpoiluQHlWng9IsXL4zalVrWVEIF4~XVhzKnStm49A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat
+  background: linear-gradient(180deg, #FFB736 0%, rgba(255, 255, 255, 0.00) 100%), url("https://s3-alpha-sig.figma.com/img/53d5/dedc/a19f074a2cfaad69d3e8ba73f1e1d2d7?Expires=1703462400&Signature=OOezMCV-TDDTG6lt92iqXU-nzvKnRUFcYSQp1ufnHxgGO4sH3YoIf1u2GgJ3qpgLAQuChBaRr8gHJqcVmARJBX7a0Wos2CDroiewugrh~og2McasuxQkBeqiQ0IErHSCvmhU5tjGDluufyOWDm3rk4yujdfX3fQppvVvjFiWejrQrlR1oxBoVIgNCG6rBy1kaQ00dS-OZUAUTfdy7URpocIrBvuewm0mZFXr-gNoHXPLHhyjekZlO9n5BTHyedHCqd7YgPGGhVT-8u1GQ940TDAcdHACYX748kFFv~H1AR3QLpoiluQHlWng9IsXL4zalVrWVEIF4~XVhzKnStm49A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") center / cover no-repeat, lightgray 50% / cover no-repeat
   color: white
 
   font-family: 'Open Sans', sans-serif
@@ -27,7 +27,7 @@ body
 
 
   &__search
-    width: 100%
+    width: 90%
     max-width: 655px
     margin-top: 80px
 
@@ -66,11 +66,14 @@ body
       cursor: pointer
 
   &__tags-list
-    margin-top: 20px
+    margin: 20px 5% 0
 
     display: flex
     align-items: center
+    justify-content: center
+    flex-wrap: wrap
     column-gap: 10px
+    row-gap: 20px
 
     list-style: none
 
